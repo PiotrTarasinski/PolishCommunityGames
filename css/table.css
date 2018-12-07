@@ -1,0 +1,124 @@
+#table{
+    background-color: #9a0a0a;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.table_col{
+    max-width: 480px;
+    margin: 8px 8px 8px 8px;
+}
+
+.table_container{
+    height: 455px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.table_title{
+    color: #9a0a0a;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.table_description{
+    background-color: #e7e7e7;
+    font-size: 11px;
+    padding: 4px 0px;
+}
+
+.table_team_list{
+    height: 382px;
+    font-size: 14px;
+    font-weight: bold;
+    overflow-y: auto;
+}
+
+.table_team_list .row{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: solid 1px #e7e7e7;
+    background-color: #f9f9f9;
+}
+
+.first_team{
+    background-color: #e5e1be !important;
+}
+
+.second_team{
+    background-color: #e7e7e7 !important;
+}
+
+.third_team{
+    background-color: #e3d0c2 !important;
+}
+
+.table_awards_container{
+    color: #fff;
+}
+
+.table_awards_title{
+    border-bottom: solid 2px #fff;
+    font-size: 48px;
+    text-align: left;
+}
+
+.table_awards_name{
+    font-weight: bold;
+}
+
+.table_awards_season{
+    font-weight: 300;
+    margin-top: -20px;
+}
+
+.table_awards{
+    height: 200px;
+    border-bottom: solid 2px #fff;
+}
+
+.table_awards .row{
+    height: 100%;
+}
+
+.table_awards .row .col{
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.award_img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.table_awards_sponsor_name{
+    text-align: left;
+    font-size: 24px;
+}
+
+.table_awards_sponsor_logo{
+    height: 92px;
+    text-align: left;
+}
+
+.sponsor_logo{
+    height: 100%;
+}
+
+@media (max-width: 1199.98px) {
+    .table_awards_title{
+        text-align: center;
+    }
+    
+    .table_awards .row .col{
+        justify-content: center;
+    }
+    .table_awards_sponsor_name{
+        text-align: center;
+    }
+    .table_awards_sponsor_logo{
+        text-align: center;
+    }
+}

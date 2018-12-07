@@ -1,0 +1,72 @@
+#social{
+    background-color: #f8f8f8;
+    padding-bottom: 30px;
+    padding-top: 12px;
+}
+
+.social_container{
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.discord_widget{
+    height: 400px;
+    width: 100%;
+    -webkit-box-shadow: 0 10px 20px -12px rgba(0, 0, 0, 0.42), 0 3px 20px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 10px 20px -12px rgba(0, 0, 0, 0.42), 0 3px 20px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+.social_col{
+    padding: 0;
+    padding-left: 8px;
+    padding-right: 8px;
+    max-width: 480px;
+}
+
+.social_name{
+    color: #9a0a0a;
+    text-align: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.social_description{
+    color: #000;
+    text-align: right;
+    font-size: 14px;
+}
+
+.vertical_align{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.social_icon_container{
+    max-width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social_icon{
+    display: block;
+    width: 96px;
+    height: 96px;
+    border: solid 1px #9a0a0a;
+    position: relative;
+    -webkit-box-shadow: 0 10px 20px -12px rgba(0, 0, 0, 0.42), 0 3px 20px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 10px 20px -12px rgba(0, 0, 0, 0.42), 0 3px 20px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+.social_icon i{
+    color: #9a0a0a;
+    line-height: 96px;
+    font-size: 42px;
+    transition: 0.2s linear;
+}
+
+.social_icon:hover i{
+    transform: scale(1.3);
+}
+
